@@ -37,10 +37,6 @@
 
     class Cube extends Square {
 
-      public function __construct($side) {
-        parent::__construct($side);
-      }
-
       public function getSurface() {
         return 6 * parent::getArea();
       }
@@ -83,5 +79,5 @@
   echo "<div style=width:150px;height:150px;margin:50px;background-color:grey;display:flex;justify-content:center;align-items:center;>"
         . $cube3 . "</div>";
   ?>
-  </div>
+    </div>
 </body>
